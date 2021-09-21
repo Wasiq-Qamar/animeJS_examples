@@ -21,17 +21,19 @@
 }
 
 .battery {
-  width: 300px;
+  width: 350px;
   height: 100px;
   margin-top: 10px;
   background-color: black;
   color: whitesmoke;
-  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .battery-log {
   color: white;
-  font-size: 10px;
+  font-size: 20px;
 }
 
 .grid {
